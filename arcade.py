@@ -63,9 +63,11 @@ class Scoreboard(Turtle):
 
     def lPoint(self):
         self.lScore+=1
+        self.updateScore()
 
     def rPoint(self):
         self.rScore+=1
+        self.updateScore()
 
     def updateScore(self):
         self.clear()
