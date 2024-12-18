@@ -1,7 +1,6 @@
 import time
 from turtle import Screen, Turtle
 
-from Demos.SystemParametersInfo import new_y
 
 
 class Paddle(Turtle):
